@@ -1,5 +1,8 @@
 local httpService = game:GetService("HttpService")
 
 local function get_URL(scriptName) 
-    if httpService:GetAsync("https://github.com/Cadez650/bedwars")
+        warn("Exists!")
+        return game:HttpGet("https://github.com/Cadez650/bedwars/"..scriptName, true);
 end;
+
+loadstring(get_URL("guilibary.lua"))();
