@@ -1,4 +1,3 @@
-local player = game.Players.LocalPlayer
-return function initilize()
+return function()
     print("preparing for!" .. player.Name);
 end;
